@@ -64,9 +64,10 @@ class _HomepageState extends State<Homepage> {
               crossAxisSpacing: 12.0,
               childAspectRatio: 1.35,
               children: pokemonsModel.map((e) => ItemPokemonWidget(
-                name: e.name,
-                image: e.img,
-                types: e.type,
+                //name: e.name,
+                //image: e.img,
+                //types: e.type,
+                pokemon: e,
               )).toList(),
               ),
             ],
